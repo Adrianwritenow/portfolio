@@ -18,7 +18,7 @@
     // Basic styling
     @extend %fixedbox;
 
-    font-weight: bold;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     z-index: 1000;
 
@@ -90,6 +90,7 @@ section {
 
 .three {
   background-image: url(https://unsplash.it/1920/1080?image=810);
+
 
   .wrapper:before {
     background: #6c320a;
