@@ -9,7 +9,9 @@ remove placeholder Images
 Launch site and Hat to interact within
 
 
-
+FONT USED:
+font-family: 'Poiret One', cursive;
+font-family: 'News Cycle', sans-serif;
 
 
 
