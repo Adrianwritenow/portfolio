@@ -5,6 +5,10 @@ Need to add 4 pages of content
 3.apps
 4.contact information
 
+remove placeholder Images
+Launch site and Hat to interact within
+
+
 
 
 
