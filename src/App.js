@@ -21,9 +21,20 @@ class App extends Component {
         </section>
 
         <section className="four">
-          <div className="wrapper"></div>
-        </section>
+            <div className="flex-center">
+                <i className="fa fa-github fa-4x icon-3d"></i>
+                <i className="fa fa-gitlab fa-4x icon-3d"></i>
+                <i className="fa fa-bitbucket fa-4x icon-3d"></i>
+                <i className="fa fa-git fa-4x icon-3d"></i>
+            </div>
 
+            <div className="flex-center">
+              <i className="fa fa-twitter fa-4x icon-3d"></i>
+              <i className="fa fa-facebook fa-4x icon-3d"></i>
+              <i className="fa fa-instagram fa-4x icon-3d"></i>
+              <i className="fa fa-whatsapp fa-4x icon-3d"></i>
+            </div>
+        </section>
       </div>
     );
   }
