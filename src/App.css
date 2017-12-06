@@ -1,4 +1,4 @@
-.content, .wrapper:before {
+.wrapper:before {
   box-sizing: border-box;
   display: block;
   font-size: 4em;
@@ -9,14 +9,6 @@
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0); }
-
-.content {
-  font-family: 'Poiret One', cursive;
-  text-align: center;
-  z-index: 1000;
-  background: #fff;
-  color: #000;
-  mix-blend-mode: lighten; }
 
 section {
   background-repeat: no-repeat;

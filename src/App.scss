@@ -17,19 +17,19 @@ $blueColor:rgba(33,150,243,1);
   transform: translate3d(-50%,-50%,0);
 }
 
-.content {
-    // Basic styling
-    @extend %fixedbox;
-
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    z-index: 1000;
-
-    // Cut-out text effect
-    background: #fff;
-    color: #000;
-    mix-blend-mode: lighten;
-}
+// .content {
+//     // Basic styling
+//     @extend %fixedbox;
+//
+//     font-family: 'Poiret One', cursive;
+//     text-align: center;
+//     z-index: 1000;
+//
+//     // Cut-out text effect
+//     background: #fff;
+//     color: #000;
+//     mix-blend-mode: lighten;
+// }
 
 section {
   // Background image styling
