@@ -22,7 +22,7 @@ class App extends Component {
           <section className="four">
           <div className="flex-center">
 
-            <i className="fa fa-github fa-4x icon-3d"></i>
+            <a href="https://github.com/Adrianwritenow"><i className="fa fa-github fa-4x icon-3d"></i></a>
             <i className="fa fa-linkedin-square fa-4x icon-3d"></i>
             <i className="fa fa-tumblr fa-4x icon-3d"></i>
             <i className="fa fa-spotify fa-4x icon-3d"></i>
