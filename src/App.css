@@ -47,8 +47,10 @@ section {
     background: #6c320a;
     mix-blend-mode: screen; }
 
-.four .wrapper:before {
-  background: #e4135d; }
+.four {
+  background-color: black; }
+  .four .wrapper:before {
+    background: #e4135d; }
 
 .flex-center {
   width: 100%;
