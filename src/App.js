@@ -8,15 +8,25 @@ class App extends Component {
       <div className="App">
 
         <section className="one">
-          <div className="wrapper"></div>
+
+          <div className="wrapper">
+            <h1>FIRST PAGE</h1>
+          </div>
         </section>
 
         <section className="two">
-          <div className="wrapper"></div>
+          <div className="wrapper">
+            <h1>SECOND PAGE</h1>
+
+          </div>
         </section>
 
         <section className="three">
-          <div className="wrapper"></div>
+
+          <div className="wrapper">
+            <h1>THIRD PAGE</h1>
+
+          </div>
         </section>
 
           <section className="four">
