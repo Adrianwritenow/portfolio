@@ -10,13 +10,14 @@ class App extends Component {
         <section className="one">
 
           <div className="wrapper">
-            <h1>FIRST PAGE</h1>
+            <h1>Adrian Rodriguez</h1>
+            <h4>Software Developer</h4>
           </div>
         </section>
 
         <section className="two">
           <div className="wrapper">
-            <h1>SECOND PAGE</h1>
+            <h1>Experience</h1>
 
           </div>
         </section>
@@ -24,7 +25,14 @@ class App extends Component {
         <section className="three">
 
           <div className="wrapper">
-            <h1>THIRD PAGE</h1>
+            <h1>Languages</h1>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
 
           </div>
         </section>
