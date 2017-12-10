@@ -25,13 +25,33 @@ class App extends Component {
         <section className="three">
 
           <div className="wrapper">
-            <h1>Languages</h1>
+            <h1>Skills</h1>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+
+
+
+
+
+
+
+
+
+
+              <li>REACT</li>
+              <li>JSX</li>
+              <li>REDUX</li>
+              <li>JAVASCRIPT</li>
+              <li>NODE</li>
+              <li><POSTGRESS/li>
+              <li>MONGO/MONGOOSE</li>
+              <li>EXPRESS</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>JSON</li>
+              <li>FINAL CUT PRO X</li>
+              <li>GIT</li>
+              <li>NPM</li>
+              <li>JAVA</li>
             </ul>
 
           </div>
