@@ -27,23 +27,13 @@ class App extends Component {
           <div className="wrapper">
             <h1>Skills</h1>
             <ul>
-
-
-
-
-
-
-
-
-
-
               <li>REACT</li>
               <li>JSX</li>
               <li>REDUX</li>
               <li>JAVASCRIPT</li>
               <li>NODE</li>
-              <li><POSTGRESS/li>
-              <li>MONGO/MONGOOSE</li>
+              <li>POSTGRESS</li>
+              <li>MONGO</li>
               <li>EXPRESS</li>
               <li>CSS</li>
               <li>HTML</li>
