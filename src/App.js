@@ -10,22 +10,27 @@ class App extends Component {
         <section className="one">
 
           <div className="wrapper">
-            <h1>Adrian Rodriguez</h1>
-            <h4>Software Developer</h4>
+            <div className="content">
+              <h1>Adrian Rodriguez</h1>
+              <h4>Software Developer</h4>
+            </div>
           </div>
         </section>
 
         <section className="two">
           <div className="wrapper">
+          <div className="content">
             <h1>Experience</h1>
-
+          </div>
           </div>
         </section>
 
         <section className="three">
 
           <div className="wrapper">
+          <div className="content">
             <h1>Skills</h1>
+          </div>
             <ul>
               <li>REACT</li>
               <li>JSX</li>
