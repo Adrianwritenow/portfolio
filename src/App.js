@@ -11,7 +11,7 @@ class App extends Component {
 
           <div className="wrapper">
             <div className="content">
-              <h1>Adrian Rodriguez</h1>
+              <h4>Adrian Rodriguez</h4>
               <h4>Software Developer</h4>
             </div>
           </div>
@@ -20,7 +20,7 @@ class App extends Component {
         <section className="two">
           <div className="wrapper">
           <div className="content">
-            <h1>Experience</h1>
+            <h4>Experience</h4>
           </div>
           </div>
         </section>
@@ -29,7 +29,7 @@ class App extends Component {
 
           <div className="wrapper">
           <div className="content">
-            <h1>Skills</h1>
+            <h4>Skills</h4>
           </div>
             <ul>
               <li>REACT</li>
