@@ -1,5 +1,3 @@
-
-
 $redColor: rgba(244,67,54,1);
 $blueColor:rgba(33,150,243,1);
 
@@ -111,17 +109,20 @@ background-color: black;
   }
 }
 
+.fa-4x {
+    font-size: 2em;
+}
 
 
 h4{
-      margin-top: -20%;
+  margin-top: -20%;
 }
 
 
 .flex-center {
   position: fixed;
-   bottom: 0;
-   min-height: 10%
+  bottom: 0;
+  min-height: 10%;
   width: 100%;
 
   background: #000;
@@ -207,54 +208,52 @@ button{
 
 
 /////BUTTON/////
-a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-	margin: 30px auto 0;
-	padding: 14px 15px;
-	color: #fff;
-	font-size:14px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	border-radius: 0;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-}
-a.animated-button:link:after, a.animated-button:visited:after {
-	content: "";
-	position: absolute;
-	height: 0%;
-	left: 50%;
-	top: 50%;
-	width: 150%;
-	z-index: -1;
-	-webkit-transition: all 0.75s ease 0s;
-	-moz-transition: all 0.75s ease 0s;
-	-o-transition: all 0.75s ease 0s;
-	transition: all 0.75s ease 0s;
+
+.linethru {
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: .5em;
+    background-color: crimson;
+    display: block;
+    bottom: .25em;
+    z-index: -1;
+    transform-origin: center left;
+		animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
+		transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+
+  }
+
 }
 
-/* Victoria Buttons */
+a{
+  font-size: 2em;
+}
 
-a.animated-button.victoria-four {
-	border: 2px solid #D24D57;
+.linethru--rev{
+  font-family: Anton;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #111;
+  font-weight: normal;
+
+  &:after {
+    transform: scaleX(0);
+	  transform-origin: center left;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+	  transform-origin: center left;
+  }
 }
-a.animated-button.victoria-four:after {
-	background: #D24D57;
-	opacity: .5;
-	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	transform: translateY(-50%) translateX(-50%) rotate(90deg);
-}
-a.animated-button.victoria-four:hover:after {
-	opacity: 1;
-	height: 600% !important;
+@keyframes strikethrough {
+		from {
+				transform: scaleX(0);
+		}
+		to {
+				transform: scaleX(1);
+		}
 }
