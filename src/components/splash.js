@@ -25,10 +25,10 @@ class Splash extends Component {
           </div>
           </div>
           <div className='splashButtons'>
-            <button>ABOUT</button>
-            <button>SKILLS</button>
-            <button>EXPERIENCE</button>
-            <button>CONTACT</button>
+            <a href="#" className="animated-button victoria-four">ABOUT</a>
+            <a href="#" className="animated-button victoria-four">SKILLS</a>
+            <a href="#" className="animated-button victoria-four">EXPERIENCE</a>
+            <a href="#" className="animated-button victoria-four">CONTACT</a>
           </div>
         </div>
     );
