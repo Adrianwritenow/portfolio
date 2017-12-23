@@ -118,7 +118,7 @@ h4 {
   top: 340%;
   display: flex;
   justify-content: space-between;
-  left: 40%; }
+  left: 23%; }
 
 button {
   text-align: center;
@@ -145,7 +145,8 @@ button {
     transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1); }
 
 a {
-  font-size: 2em; }
+  font-size: 2em;
+  margin-right: 10px; }
 
 .linethru--rev {
   font-family: Anton;
