@@ -1,6 +1,10 @@
 $redColor: rgba(244,67,54,1);
 $blueColor:rgba(33,150,243,1);
 
+
+html{
+  background-color: #FBD2D7;
+}
 %fixedbox {
   // Basic styling
   box-sizing: border-box;
@@ -110,7 +114,8 @@ background-color: black;
 }
 
 .fa-4x {
-    font-size: 2em;
+    font-size: 3em;
+    margin-right: 10px;
 }
 
 
@@ -190,6 +195,11 @@ h4{
     justify-content: space-between;
     left:0%;
 
+    a{
+      font-size: 2em;
+      margin-right: 5%;
+    }
+
 
 
 }
@@ -204,7 +214,6 @@ button{
     left: 70%;
   }
 }
-
 
 
 /////BUTTON/////
@@ -229,22 +238,24 @@ button{
 
 }
 
-a{
-  font-size: 2em;
-  margin-right: 5%;
-}
+
 
 .linethru--rev{
   font-family: Anton;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #111;
+  color: #52958A;
   font-weight: normal;
 
   &:after {
     transform: scaleX(0);
 	  transform-origin: center left;
+
   }
+  &:hover{
+    color: #EEFAD1;
+  }
+
   &:hover:after {
     transform: scaleX(1);
 	  transform-origin: center left;
