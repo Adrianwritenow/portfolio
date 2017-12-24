@@ -16,15 +16,11 @@ html {
 .content {
   font-family: 'Poiret One', cursive;
   text-align: center;
-  z-index: 1000;
-  background: #fff;
-  color: #000;
-  mix-blend-mode: lighten; }
+  z-index: 1000; }
 
 section {
   background-repeat: no-repeat;
   background-size: cover;
-  isolation: isolate;
   position: relative;
   height: 100vh;
   padding: 1em; }
@@ -150,6 +146,13 @@ button {
     transform-origin: center left;
     animation: strikethrough 1s 0.5s cubic-bezier(0.55, 0, 0.1, 1) 1;
     transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1); }
+
+.experienceWrapper h1 {
+  font-family: Anton;
+  color: #EEFAD1;
+  font-size: 12vw;
+  clip: rect(auto auto auto auto);
+  position: absolute; }
 
 .linethru--rev {
   font-family: Anton;

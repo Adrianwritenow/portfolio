@@ -31,9 +31,9 @@ html{
 
 
     // Cut-out text effect
-    background: #fff;
-    color: #000;
-    mix-blend-mode: lighten;
+    // background: #fff;
+    // color: #000;
+    // mix-blend-mode: lighten;
 }
 
 section {
@@ -42,7 +42,7 @@ section {
   background-size: cover;
 
   // Reset stacking context
-  isolation: isolate;
+  // isolation: isolate;
 
   // Must be set to correctly position .wrapper below
   position: relative;
@@ -112,6 +112,15 @@ background-color: black;
     background: #e4135d;
   }
 }
+
+
+
+
+
+
+
+
+
 
 .fa-4x {
     font-size: 3em;
@@ -234,11 +243,21 @@ button{
 		animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
 		transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
 
+
   }
 
 }
+.experienceWrapper{
+  h1{
+  font-family: Anton;
+  color: #EEFAD1;
+  font-size: 12vw;
+  clip: rect(auto auto auto auto);
+  position: absolute;
 
 
+  }
+}
 
 .linethru--rev{
   font-family: Anton;
