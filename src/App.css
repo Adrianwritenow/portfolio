@@ -150,7 +150,7 @@ button {
   color: #EEFAD1;
   font-size: 12vw;
   clip: rect(auto auto auto auto);
-  position: absolute; }
+  position: fixed; }
 
 .linethru--rev {
   font-family: Anton;
