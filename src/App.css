@@ -1,8 +1,7 @@
 html {
   background-color: #FBD2D7; }
 
-.content, .wrapper:before, .titleInfo:before {
-  box-sizing: border-box;
+.wrapper:before {
   display: block;
   font-size: 4em;
   padding: 1em;
@@ -13,11 +12,6 @@ html {
   left: 50%;
   transform: translate3d(-50%, -50%, 0); }
 
-.content {
-  font-family: 'Poiret One', cursive;
-  text-align: center;
-  z-index: 1000; }
-
 section {
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,39 +19,47 @@ section {
   height: 100vh;
   padding: 1em; }
 
-.wrapper, .titleInfo {
+.wrapper {
   clip: rect(auto auto auto auto);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0; }
-  .wrapper:before, .titleInfo:before {
-    content: " ";
+  .wrapper:before {
     padding: 2em 3.5em;
     mix-blend-mode: darken; }
 
 .one {
-  background-image: url(https://unsplash.it/1920/1080?image=737); }
+  background-color: blue; }
   .one .wrapper:before {
     background: red; }
+  .one .linethru {
+    position: fixed; }
+  .one .linethru:after {
+    background-color: yellow;
+    opacity: .25; }
 
 .two {
-  background-image: url(https://unsplash.it/1920/1080?image=812); }
+  background-color: orange; }
   .two .wrapper:before {
-    background: #faaa54;
-    mix-blend-mode: difference; }
+    background: #faaa54; }
+  .two .linethru {
+    position: fixed; }
+  .two .linethru:after {
+    background-color: purple;
+    opacity: .25; }
 
 .three {
-  background-image: url(https://unsplash.it/1920/1080?image=810); }
+  background-color: green; }
+  .three .linethru {
+    position: fixed; }
+  .three .linethru:after {
+    background-color: blue;
+    opacity: .25; }
   .three .wrapper:before {
     background: #6c320a;
-    mix-blend-mode: screen; }
-
-.four {
-  background-color: black; }
-  .four .wrapper:before {
-    background: #e4135d; }
+    mix-blend-mode: darken; }
 
 .fa-4x {
   font-size: 3em;
@@ -133,7 +135,7 @@ button {
 
 .linethru {
   display: inline-block;
-  position: relative; }
+  position: fixed; }
   .linethru:after {
     content: '';
     width: 100%;
@@ -159,7 +161,8 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #52958A;
-  font-weight: normal; }
+  font-weight: normal;
+  position: relative; }
   .linethru--rev:after {
     transform: scaleX(0);
     transform-origin: center left; }

@@ -7,7 +7,6 @@ html{
 }
 %fixedbox {
   // Basic styling
-  box-sizing: border-box;
   display: block;
   font-size: 4em;
   padding: 1em;
@@ -21,22 +20,10 @@ html{
   transform: translate3d(-50%,-50%,0);
 }
 
-.content {
-    // Basic styling
-    @extend %fixedbox;
 
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    z-index: 1000;
-
-
-    // Cut-out text effect
-    // background: #fff;
-    // color: #000;
-    // mix-blend-mode: lighten;
-}
 
 section {
+
   // Background image styling
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,12 +39,12 @@ section {
   padding: 1em;
 }
 
-.wrapper, .titleInfo {
+.wrapper {
   // Hides box (&:before) outside of section
   clip: rect(auto auto auto auto);
 
   // Clip works only on positions absolute or fixed
-  position: absolute;
+  position: fixed;
   // Stretch to fill entire section
     top: 0;
     right: 0;
@@ -65,7 +52,7 @@ section {
     left: 0;
 
   &:before {
-    content: " ";
+
 
     // Basic styling
     @extend %fixedbox;
@@ -79,39 +66,62 @@ section {
 
 .one {
   // Section background image
-  background-image: url(https://unsplash.it/1920/1080?image=737);
-
+  background-color: blue;
   .wrapper:before {
     // Box background color
     background: red;
+
+  }
+  .linethru{
+    position: fixed;
+  }
+
+  .linethru:after{
+
+    background-color: yellow;
+    opacity: .25;
+
   }
 }
 
 .two {
-  background-image: url(https://unsplash.it/1920/1080?image=812);
+  background-color: orange;
 
   .wrapper:before {
     background: #faaa54;
-    mix-blend-mode: difference;
+    // mix-blend-mode: difference;
+  }
+
+  .linethru{
+    position: fixed;
+  }
+
+  .linethru:after{
+
+    background-color: purple;
+    opacity: .25;
+
   }
 }
 
 .three {
-  background-image: url(https://unsplash.it/1920/1080?image=810);
+  background-color: green;
 
+  .linethru{
+    position: fixed;
+  }
+
+  .linethru:after{
+    background-color: blue;
+    opacity: .25;
+  }
 
   .wrapper:before {
     background: #6c320a;
-    mix-blend-mode: screen;
+    mix-blend-mode: darken;
   }
 }
 
-.four {
-background-color: black;
-  .wrapper:before {
-    background: #e4135d;
-  }
-}
 
 
 
@@ -207,11 +217,10 @@ h4{
     a{
       font-size: 2em;
       margin-right: 5%;
+
     }
-
-
-
 }
+
 button{
   text-align: center;
   margin-right: -50%;
@@ -229,7 +238,7 @@ button{
 
 .linethru {
   display: inline-block;
-  position: relative;
+  position: fixed;
   &:after {
     content: '';
     width: 100%;
@@ -242,8 +251,6 @@ button{
     transform-origin: center left;
 		animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
 		transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
-
-
   }
 
 }
@@ -265,6 +272,8 @@ button{
   letter-spacing: 0.05em;
   color: #52958A;
   font-weight: normal;
+  position: relative;
+
 
   &:after {
     transform: scaleX(0);
