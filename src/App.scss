@@ -24,6 +24,7 @@ html{
 
 section {
 
+
   // Background image styling
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,6 +38,14 @@ section {
   // Height not required. Can be left as auto
   height: 100vh;
   padding: 1em;
+
+  .content{
+    @extend %fixedbox;
+    z-index: 1000;
+  }
+
+
+
 }
 
 .wrapper {
@@ -44,7 +53,7 @@ section {
   clip: rect(auto auto auto auto);
 
   // Clip works only on positions absolute or fixed
-  position: fixed;
+  position: absolute;
   // Stretch to fill entire section
     top: 0;
     right: 0;
@@ -72,9 +81,6 @@ section {
     background: red;
 
   }
-  .linethru{
-    position: fixed;
-  }
 
   .linethru:after{
 
@@ -92,9 +98,6 @@ section {
     // mix-blend-mode: difference;
   }
 
-  .linethru{
-    position: fixed;
-  }
 
   .linethru:after{
 
@@ -107,9 +110,6 @@ section {
 .three {
   background-color: green;
 
-  .linethru{
-    position: fixed;
-  }
 
   .linethru:after{
     background-color: blue;
@@ -236,7 +236,7 @@ button{
 
 /////BUTTON/////
 
-.linethru {
+.linethru{
   display: inline-block;
   position: fixed;
   &:after {
