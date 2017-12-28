@@ -1,9 +1,9 @@
 html {
   background-color: #FBD2D7; }
 
-section .content, .wrapper:before {
+section .content, section .contentHeader, .wrapper:before {
   display: block;
-  font-size: 4em;
+  font-size: 2em;
   padding: 1em;
   width: 6em;
   height: 3em;
@@ -18,8 +18,12 @@ section {
   position: relative;
   height: 100vh;
   padding: 1em; }
-  section .content {
-    z-index: 1000; }
+  section .content, section .contentHeader {
+    z-index: 1000;
+    width: 1000px; }
+  section .contentHeader {
+    top: 0%;
+    left: 40%; }
 
 .wrapper {
   clip: rect(auto auto auto auto);
