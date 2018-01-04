@@ -81,55 +81,6 @@ section {
   }
 }
 
-.one {
-  // Section background image
-  background-color: blue;
-  .wrapper:before {
-    // Box background color
-    background: red;
-
-  }
-
-  .linethru:after{
-
-    background-color: yellow;
-    opacity: .25;
-
-  }
-}
-
-.two {
-  background-color: orange;
-
-  .wrapper:before {
-    background: #faaa54;
-    // mix-blend-mode: difference;
-  }
-
-
-  .linethru:after{
-
-    background-color: purple;
-    opacity: .25;
-
-  }
-}
-
-.three {
-  background-color: green;
-
-
-  .linethru:after{
-    background-color: blue;
-    opacity: .25;
-  }
-
-  .wrapper:before {
-    background: #6c320a;
-    mix-blend-mode: darken;
-  }
-}
-
 
 
 
@@ -265,12 +216,64 @@ button{
 .experienceWrapper{
   h1{
   font-family: Anton;
-  color: #EEFAD1;
+  color: #FBFDFD;
   font-size: 12vw;
   clip: rect(auto auto auto auto);
   position: fixed;
+  }
 
 
+  .one {
+    // Section background image
+    background-color: #81B8AF;
+    .wrapper:before {
+      // Box background color
+      background: red;
+
+    }
+
+    .linethru:after{
+
+      background-color: yellow;
+      opacity: .25;
+
+    }
+  }
+
+  .two {
+    background-color: #FFD2B3;
+
+    .wrapper:before {
+      background: #faaa54;
+      // mix-blend-mode: difference;
+    }
+
+
+    .linethru:after{
+
+      background-color: purple;
+      opacity: .25;
+
+    }
+  }
+
+  .three {
+    background-color: #ACE09E;
+
+
+    .linethru:after{
+      background-color: blue;
+      opacity: .25;
+    }
+
+    .wrapper:before {
+      background: #6c320a;
+      mix-blend-mode: darken;
+    }
+  }
+  p{
+    font-weight: 400;
+    font-family: sans-serif;
   }
 }
 

@@ -13,12 +13,12 @@ class Experience extends Component {
 
       <div className="experienceWrapper">
 
-        <section className="one">
+        <section className="one" id="one">
           <div className="wrapper">
 
             <div className='contentHeader'>
               <h1 className="linethru">
-                &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
+                &#x0003C;ABOUT&#x0002F;&#x0003E;</h1>
             </div>
               <div className="content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -28,11 +28,11 @@ class Experience extends Component {
 
         </section>
 
-        <section className="two">
+        <section className="two" id="two">
           <div className="wrapper">
           <div className='contentHeader'>
             <h1 className="linethru">
-              &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
+              &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
           </div>
 
               <div className="content">
@@ -44,14 +44,14 @@ class Experience extends Component {
 
         </section>
 
-        <section className="three">
+        <section className="three" id="three">
           <div className="wrapper">
           <div className='contentHeader'>
             <h1 className="linethru">
               &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
           </div>
             <div className="content">
-            
+
               <p>Duis et risus id elit rutrum volutpat.
               Morbi mattis nibh ligula, sit amet consectetur ipsum eleifend id. Curabitur consequat tempor lectus a dignissim.
               Duis iaculis ante justo, lobortis interdum odio condimentum ac. Integer rhoncus dapibus nisi sed porta.
