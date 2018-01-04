@@ -15,18 +15,17 @@ class Skills extends Component {
 
       let skillCards = skills.map(function(skill){
          return (
-            <div className='examCard'>
-             <p>{skill}</p>
-            </div>
+          <div className="button">{skill}</div>
          )
-
       });
     return (
 
         <div className="experienceWrapper">
         <h1 className="linethru linethru--rev">
           &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
-          {skillCards}
+          <div className='container'>
+            {skillCards}
+          </div>
 
         </div>
     );
