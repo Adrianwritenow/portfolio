@@ -1,63 +1,58 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../App.css';
+import Skills from "../components/skills";
 
 class Info extends Component {
 
+  componentDidMount(){
+    console.log("COMPONENT MOUNTED:Experience");
+}
+
+
   render() {
     return (
-      <div className="App">
 
-        <section className="one">
+      <div className="experienceWrapper">
 
+        <section className="one" id="about">
           <div className="wrapper">
-            <div className="content">
-              <h4>Adrian Rodriguez</h4>
-              <h4>Software Developer</h4>
+
+            <div className='contentHeader'>
+              <h1 className="linethru">
+                &#x0003C;ABOUT&#x0002F;&#x0003E;</h1>
             </div>
+              <div className="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque vitae dictum erat.</p>
+              </div>
           </div>
+
         </section>
 
-        <section className="two">
+        <section className="two" id="skills">
+          <Skills />
+        </section>
+
+        <section className="three" id="experience">
           <div className="wrapper">
-          <div className="content">
-            <h4>Experience</h4>
+          <div className='contentHeader'>
+            <h1 className="linethru">
+              &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
           </div>
+            <div className="content">
+
+              <p>Duis et risus id elit rutrum volutpat.
+              Morbi mattis nibh ligula, sit amet consectetur ipsum eleifend id. Curabitur consequat tempor lectus a dignissim.
+              Duis iaculis ante justo, lobortis interdum odio condimentum ac. Integer rhoncus dapibus nisi sed porta.
+              Mauris tortor metus, consectetur quis leo a, maximus fermentum nunc. Integer maximus a felis vel tempus.
+              Praesent ullamcorper congue urna venenatis mattis.</p>
+            </div>
+
           </div>
+
         </section>
 
-        <section className="three">
-
-          <div className="wrapper">
-          <div className="content">
-            <h4>Skills</h4>
-            <ul>
-              <li>REACT</li>
-              <li>JSX</li>
-              <li>REDUX</li>
-              <li>JAVASCRIPT</li>
-              <li>NODE</li>
-              <li>POSTGRESS</li>
-              <li>MONGO</li>
-              <li>EXPRESS</li>
-              <li>CSS</li>
-              <li>HTML</li>
-              <li>JSON</li>
-              <li>FINAL CUT PRO X</li>
-              <li>GIT</li>
-              <li>NPM</li>
-              <li>JAVA</li>
-            </ul>
-          </div>
-
-
-          </div>
-        </section>
-
-          <section className="four">
-          
-        </section>
-      </div>
+    </div>
     );
   }
 }

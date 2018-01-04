@@ -20,13 +20,14 @@ class Skills extends Component {
       });
     return (
 
-        <div className="experienceWrapper">
-        <h1 className="linethru linethru--rev">
-          &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
-          <div className='container'>
-            {skillCards}
+        <div className="wrapper">
+          <div className="contentHeader">
+          <h1 className="linethru">
+            &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
+            <div className='container'>
+              {skillCards}
+            </div>
           </div>
-
         </div>
     );
   }
