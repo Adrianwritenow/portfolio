@@ -5,10 +5,7 @@ class Splash extends Component {
 
   componentDidMount(){
     console.log("COMPONENT MOUNTED:Splash");
-  //    window.onload = function() {
-  //      document.getElementsByClassName('section').className = 'load';
-  //
-  // }
+
 }
 
 
