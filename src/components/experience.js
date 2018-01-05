@@ -20,12 +20,10 @@ class Experience extends Component {
 
       let expCards = experience.map(function(skill){
          return (
-           <div className="container">
              <div className="flip">
                <div className="front">{skill.name}</div>
                <div className="back">{skill.description}</div>
              </div>
-           </div>
          )
       });
     return (
