@@ -30,12 +30,16 @@ class Experience extends Component {
                 {skill.name}
                 {skill.title}
                 {skill.location}
+                {skill.period}
+
+
+               </div>
+               <div className="back">
+                {skill.description}
                 <ul>
                   {detailList}
                 </ul>
-
                </div>
-               <div className="back">{skill.description}</div>
              </div>
          )
       });

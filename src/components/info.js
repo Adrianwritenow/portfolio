@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Skills from "../components/skills";
+import Experience from '../components/experience';
 
 class Info extends Component {
 
@@ -34,22 +35,7 @@ class Info extends Component {
         </section>
 
         <section className="three" id="experience">
-          <div className="wrapper">
-          <div className='contentHeader'>
-            <h1 className="linethru">
-              &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
-          </div>
-            <div className="content">
-
-              <p>Duis et risus id elit rutrum volutpat.
-              Morbi mattis nibh ligula, sit amet consectetur ipsum eleifend id. Curabitur consequat tempor lectus a dignissim.
-              Duis iaculis ante justo, lobortis interdum odio condimentum ac. Integer rhoncus dapibus nisi sed porta.
-              Mauris tortor metus, consectetur quis leo a, maximus fermentum nunc. Integer maximus a felis vel tempus.
-              Praesent ullamcorper congue urna venenatis mattis.</p>
-            </div>
-
-          </div>
-
+          <Experience />
         </section>
 
     </div>

@@ -6,8 +6,6 @@ import Splash from "./components/splash";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Experience from "./components/experience";
-
-
 import BaseLayout from "./components/baselayout";
 
 import './App.css';
@@ -21,7 +19,6 @@ class App extends Component {
             <Route exact path="/" component={Splash}/>
             <Route exact path="/info" component={Info}/>
             <Route exact path="/experience" component={Experience}/>
-
           </BaseLayout>
         </Switch>
     </BrowserRouter>
