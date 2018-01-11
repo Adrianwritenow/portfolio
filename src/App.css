@@ -87,13 +87,23 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1300px;
+  width: 1280px;
   height: 800px; }
 
-#tiger {
+#tiger, #flamingo {
   position: absolute;
   width: 30%;
   height: auto; }
+
+#flamingo {
+  width: 120%;
+  margin-top: -52px; }
+
+.container {
+  position: absolute; }
+
+.filter, #tiger, #flamingo {
+  filter: url(#glitch); }
 
 #water {
   width: 100%;
@@ -127,10 +137,11 @@ button {
   margin-right: -50%; }
 
 .splashHeader {
-  color: #EEFAD1;
-  margin-top: 4%; }
+  color: yellow;
+  margin-top: 4%;
+  text-shadow: 3px 5px black; }
   .splashHeader h4 {
-    top: 240%;
+    top: 200%;
     left: 70%; }
 
 .linethru {
@@ -163,6 +174,10 @@ button {
   .experienceWrapper .one .linethru:after {
     background-color: yellow;
     opacity: .25; }
+  .experienceWrapper .one .content, .experienceWrapper .one section .contentHeader, section .experienceWrapper .one .contentHeader {
+    display: flex;
+    align-items: center;
+    overflow: inherit; }
 
 .experienceWrapper .two {
   background-color: #FFD2B3; }
