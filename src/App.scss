@@ -23,8 +23,6 @@ html{
 
 
 section {
-
-
   // Background image styling
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,15 +78,6 @@ section {
 
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 .fa-4x {
@@ -162,7 +151,7 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1280px;
+  width: 100%;
   height: 800px;
 
 }
@@ -174,7 +163,7 @@ h4{
 
 #flamingo{
   @extend #tiger;
-  width: 120%;
+  width: 100%;
   margin-top: -52px;
 }
 
@@ -222,7 +211,6 @@ h4{
 
 button{
   text-align: center;
-  margin-right: -50%;
 }
 .splashHeader{
   color:yellow;

@@ -19,7 +19,6 @@ class Info extends Component {
 
 
 
-
         <section className="one" id="about">
           <div className="wrapper">
 
