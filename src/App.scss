@@ -163,7 +163,7 @@ h4{
 
 #flamingo{
   @extend #tiger;
-  width: 100%;
+  width: 90%;
   margin-top: -52px;
 }
 
@@ -374,6 +374,8 @@ button{
   position: relative;
   overflow:hidden;
   transition: .3s;
+  width:20%;
+  
   &:after {
     position: absolute;
     transition: .3s;
@@ -397,6 +399,10 @@ button{
     &.button:after {
       width: 0%;
     }
+  }
+
+  img{
+    width: 20%;
   }
 }
 ///////////EXPERIENCE CARDS//////////

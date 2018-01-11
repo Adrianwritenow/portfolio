@@ -20,6 +20,8 @@ class Info extends Component {
 
 
         <section className="one" id="about">
+        <img id="flamingo"src={require("./logos/flamingo.png")} alt='flamingo'/>
+
           <div className="wrapper">
 
             <div className='contentHeader'>
@@ -30,7 +32,6 @@ class Info extends Component {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Quisque vitae dictum erat.</p>
               </div>
-              <img id="flamingo"src={require("./logos/flamingo.png")} alt='flamingo'/>
 
           </div>
 
