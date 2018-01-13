@@ -10,11 +10,11 @@ class Experience extends Component {
 
   render() {
     let experience = [{name:'The Iron Yard',title:'Developer',location:'Orlando, FL',description:'Learn the methods and languages used in Web/ Application development used today by completing complicated projects.',period:'2017',details:['Developed several Web applications with Front and Backend',
-      'Problem solving through application errors to find solutions','Adapt to a fast paced learning enviorment']},
+      'Problem solving through application errors to find solutions','Adapt to a fast paced learning enviorment'], logo:'./logos/TIYlogo.png'},
       {name:'Bluemotion Productions', title:'Production Manager', location:'Orlando, Fl/Los Angeles, CA', description:'Oversaw the completion of projects by organizing production and editing crews while meeting client deadlines.',period:'2012-2015',details:['Managed a camera crew of six at the 2013 Academy Awards and NBA All-Star game',
         'Hired and interviewed employees',
-        'Edited promotional material for Marcus and Jeffery Jordan (Heir Jordan)']},
-      {name:'Snap & Play', title:'Production Account Manager', location:'Orlando, Fl', description:'Contributed to the Google business tours project in the Orlando area by coordinating production schedules with clients.',period:'2008-2012',details:['Added new data to Googles business tour project',
+        'Edited promotional material for Marcus and Jeffery Jordan (Heir Jordan)'], logo:'./logos/blueMotionLogo.png'},
+      {name:'Snap & Play',logo:"./logos/snap&playLogo.png", title:'Production Account Manager', location:'Orlando, Fl', description:'Contributed to the Google business tours project in the Orlando area by coordinating production schedules with clients.',period:'2008-2012',details:['Added new data to Googles business tour project',
         'Managed business relations with clients','Delegated and created shooting schedule withcamera team']},
     ];
 
@@ -27,7 +27,7 @@ class Experience extends Component {
          return (
              <div className="flip">
                <div className="front">
-                {skill.name}
+                <img src={require(`${skill.logo}`)} alt="logo"/>
                 {skill.title}
                 {skill.location}
                 {skill.period}
