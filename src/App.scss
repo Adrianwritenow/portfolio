@@ -166,6 +166,9 @@ h4{
   width: 90%;
   margin-top: -52px;
 }
+#parrot{
+  width: 50vw;
+}
 
 .container{
   position: absolute;
@@ -179,7 +182,7 @@ h4{
   height: 25%;
   object-fit: cover;
   z-index: -1000;
-  border: 80px solid #C00C16;
+  // border: 80px solid #C00C16;
 
 }
 .tigerWrap{
@@ -203,8 +206,7 @@ h4{
     left:0%;
 
     a{
-      font-size: 2em;
-      margin-right: 5%;
+
 
     }
 }
@@ -216,6 +218,10 @@ button{
   color:yellow;
   margin-top: 4%;
   text-shadow: 3px 5px black;
+
+  h1{
+    font-size:100%;
+  }
   h4{
     @extend .splashWrapper;
     top:200%;
@@ -374,6 +380,7 @@ button{
   overflow:hidden;
   transition: .3s;
   width:10%;
+  filter: grayscale(100%);
 
   &:after {
     position: absolute;
@@ -388,12 +395,16 @@ button{
 
   &:hover {
     cursor: pointer;
+    filter: grayscale(0%);
+
     &:after {
       width: 100%;
       left: 0;
+
     }
     &.button {
       transform: scale(1.2);
+
     }
     &.button:after {
       width: 0%;

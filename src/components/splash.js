@@ -115,11 +115,11 @@ class Splash extends Component {
               </div>
             </div>
             <div className='splashButtons'>
-              <a href="/info/#about" className="linethru linethru--rev">
+              <a href="/#about" className="linethru linethru--rev">
                 &#x0003C;ABOUT&#x0002F;&#x0003E;</a>
-              <a href="/info/#skills" className="linethru linethru--rev">
+              <a href="/#skills" className="linethru linethru--rev">
                 &#x0003C;SKILLS&#x0002F;&#x0003E;</a>
-              <a href="/info/#experience" className="linethru linethru--rev">
+              <a href="/#experience" className="linethru linethru--rev">
                 &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</a>
               <a href="/contact" className="linethru linethru--rev">
                 &#x0003C;CONTACT&#x0002F;&#x0003E;</a>
