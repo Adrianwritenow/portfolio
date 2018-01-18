@@ -109,8 +109,6 @@ class Splash extends Component {
             <div className="splashHeader">
               <div className="header">
                 <h1>ADRIANWRITENOW;</h1>
-              </div>
-              <div className="footer">
                 <h4>&#x0007B;JUNIOR DEVELOPER&#x0007D;</h4>
               </div>
             </div>

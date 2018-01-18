@@ -28,9 +28,7 @@ class Experience extends Component {
              <div className="flip">
                <div className="front">
                 <img src={require(`${skill.logo}`)} alt="logo"/>
-                {skill.title}
-                {skill.location}
-                {skill.period}
+        
 
 
                </div>
