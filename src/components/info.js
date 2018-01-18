@@ -14,10 +14,11 @@ class Info extends Component {
   render() {
     return (
 <div className="contentWrap">
-      <Splash />
       <div className="experienceWrapper">
+      <section className="zero" id="splash">
 
-
+      <Splash />
+      </section>
 
         <section className="one" id="about">
         <img id="flamingo"src={require("./logos/flamingo.png")} alt='flamingo'/>
