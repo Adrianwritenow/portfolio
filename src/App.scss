@@ -75,6 +75,12 @@ section {
     mix-blend-mode: darken;
 
   }
+  .content{
+    top:40vw;
+    background-color: white;
+    width: 60vw;
+
+  }
 }
 
 
@@ -197,9 +203,7 @@ section {
     }
 
     .content{
-      display: flex;
-      align-items: center;
-      overflow: inherit;
+z-index: 1000;
     }
   }
 

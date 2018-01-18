@@ -29,12 +29,12 @@ class Info extends Component {
               <h1 className="linethru">
                 &#x0003C;ABOUT&#x0002F;&#x0003E;</h1>
             </div>
-              <div className="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Quisque vitae dictum erat.</p>
-              </div>
-
+            <div className="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Quisque vitae dictum erat.</p>
+            </div>
           </div>
+
 
         </section>
 
