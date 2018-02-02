@@ -1,6 +1,6 @@
 section .content, section .contentHeader, .wrapper:before {
   display: block;
-  font-size: 2em;
+  font-size: 3vw;
   padding: 1em;
   position: fixed;
   transform: translate3d(-50%, -50%, 0); }
@@ -31,7 +31,8 @@ section {
   .wrapper .content {
     top: 40vw;
     background-color: white;
-    width: 60vw; }
+    width: 60vw;
+    left: 40vw; }
 
 .fa-4x {
   font-size: 3em;
@@ -115,6 +116,8 @@ section {
     opacity: .25; }
   .experienceWrapper .one .content {
     z-index: 1000; }
+  .experienceWrapper .one .wrapper {
+    border: 5vw solid #FBD2D7; }
 
 .experienceWrapper .two {
   background-color: #FFD2B3; }

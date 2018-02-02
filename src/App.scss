@@ -6,7 +6,7 @@ $blueColor:rgba(33,150,243,1);
 %fixedbox {
   // Basic styling
   display: block;
-  font-size: 2em;
+  font-size: 3vw;  
   padding: 1em;
 
 
@@ -79,6 +79,7 @@ section {
     top:40vw;
     background-color: white;
     width: 60vw;
+    left: 40vw;
 
   }
 }
@@ -203,7 +204,11 @@ section {
     }
 
     .content{
-z-index: 1000;
+      z-index: 1000;
+      // top:80vw;
+    }
+    .wrapper{
+      border: 5vw solid #FBD2D7;
     }
   }
 
