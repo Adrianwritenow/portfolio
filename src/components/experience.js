@@ -28,7 +28,7 @@ class Experience extends Component {
              <div className="flip">
                <div className="front">
                 <img src={require(`${skill.logo}`)} alt="logo"/>
-        
+
 
 
                </div>
@@ -44,6 +44,7 @@ class Experience extends Component {
     return (
 
         <div className="wrapper">
+
           <div className="contentHeader">
           <h1 className="linethru">
             &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>
@@ -51,6 +52,7 @@ class Experience extends Component {
               {expCards}
             </div>
           </div>
+
         </div>
     );
   }

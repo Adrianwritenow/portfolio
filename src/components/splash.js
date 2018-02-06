@@ -9,6 +9,8 @@ class Splash extends Component {
 }
   render() {
     return (
+      <div className="backgroundImage">
+
       <div className="backgroundSplash">
         <img id="water" src={require("./logos/pool_water.jpg")}alt='WATTA'/>
 
@@ -123,8 +125,8 @@ class Splash extends Component {
                 &#x0003C;CONTACT&#x0002F;&#x0003E;</a>
             </div>
           </div>
-
       </div>
+    </div>
     );
   }
 }
