@@ -186,6 +186,7 @@ section {
   display: flex;
     justify-content: center;
   background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800');
+
 }
   .one {
     overflow: hidden;
@@ -215,7 +216,7 @@ section {
 
   .two {
     background-color: #FFD2B3;
-
+    border: 5vw solid red;
     .wrapper:before {
       background: #faaa54;
       // mix-blend-mode: difference;
@@ -232,6 +233,9 @@ section {
 
   .three {
     background-color: #ACE09E;
+
+    border: 5vw solid blue;
+    border-bottom: 10vw solid blue;
 
 
     .linethru:after{
@@ -286,13 +290,51 @@ section {
 
 /////////////////////SPLASH///////////////
 
+#flower0A{
+width: 20vh;
+overflow: auto;
+transform: rotate(205deg);
+position: fixed;
+right: 0;
+margin-right: -30px;
+margin-top: -30px;
+}
+
+#flower1A{
+  @extend #flower0A;
+  transform: rotate(140deg);
+  left: 0;
+  margin-left: -30px
+
+}
+
+#flower2A{
+  @extend #flower1A;
+  bottom: 10%;
+  transform: rotate(40deg);
+  margin-bottom: -30px;
+
+
+
+
+}
+#flower3A{
+@extend #flower0A;
+  bottom: 10%;
+  transform: rotate(320deg);
+  margin-bottom: -30px;
+
+
+}
+
 .backgroundSplash{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg');
-  margin-top: 30vh;
+  opacity: 1.30;
+  margin-top: 25vh;
 }
 .backgroundImage{
   opacity: .85;

@@ -10,6 +10,10 @@ class Splash extends Component {
   render() {
     return (
       <div className="backgroundImage">
+      <img id="flower0A" src={require("./logos/lotusflower.png")} alt='flower'/>
+      <img id="flower1A" src={require("./logos/lotusflower.png")} alt='flower'/>
+      <img id="flower2A" src={require("./logos/lotusflower.png")} alt='flower'/>
+      <img id="flower3A" src={require("./logos/lotusflower.png")} alt='flower'/>
 
       <div className="backgroundSplash">
         <img id="water" src={require("./logos/pool_water.jpg")}alt='WATTA'/>

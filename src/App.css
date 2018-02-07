@@ -120,7 +120,8 @@ section {
     border: 5vw solid #FBD2D7; }
 
 .experienceWrapper .two {
-  background-color: #FFD2B3; }
+  background-color: #FFD2B3;
+  border: 5vw solid red; }
   .experienceWrapper .two .wrapper:before {
     background: #faaa54; }
   .experienceWrapper .two .linethru:after {
@@ -128,7 +129,9 @@ section {
     opacity: .25; }
 
 .experienceWrapper .three {
-  background-color: #ACE09E; }
+  background-color: #ACE09E;
+  border: 5vw solid blue;
+  border-bottom: 10vw solid blue; }
   .experienceWrapper .three .linethru:after {
     background-color: blue;
     opacity: .25; }
@@ -163,13 +166,38 @@ section {
   to {
     transform: scaleX(1); } }
 
+#flower0A, #flower1A, #flower2A, #flower3A {
+  width: 20vh;
+  overflow: auto;
+  transform: rotate(205deg);
+  position: fixed;
+  right: 0;
+  margin-right: -30px;
+  margin-top: -30px; }
+
+#flower1A, #flower2A {
+  transform: rotate(140deg);
+  left: 0;
+  margin-left: -30px; }
+
+#flower2A {
+  bottom: 10%;
+  transform: rotate(40deg);
+  margin-bottom: -30px; }
+
+#flower3A {
+  bottom: 10%;
+  transform: rotate(320deg);
+  margin-bottom: -30px; }
+
 .backgroundSplash {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   background-image: url("https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg");
-  margin-top: 30vh; }
+  opacity: 1.30;
+  margin-top: 25vh; }
 
 .backgroundImage {
   opacity: .85;

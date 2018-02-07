@@ -16,10 +16,13 @@ class Info extends Component {
 <div className="contentWrap">
       <div className="experienceWrapper">
       <section className="zero" id="splash">
+      
+
       <Splash />
+
       </section>
         <section className="one" id="about">
-        <img id="flamingo"src={require("./logos/flamingo.png")} alt='flamingo'/>
+        <img id="flamingo" src={require("./logos/flamingo.png")} alt='flamingo'/>
 
           <div className="wrapper">
 
