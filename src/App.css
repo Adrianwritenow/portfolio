@@ -14,7 +14,8 @@ section {
     z-index: 1000;
     width: 1000px; }
   section .contentHeader {
-    top: 0%; }
+    top: 0%;
+    z-index: 1000; }
     section .contentHeader h1 {
       font-size: 10vw; }
 
@@ -43,6 +44,7 @@ section {
   bottom: 0;
   min-height: 10%;
   width: 100%;
+  z-index: 2000;
   background: #000;
   display: -webkit-box;
   display: -webkit-flex;
@@ -108,9 +110,10 @@ section {
 
 .experienceWrapper .one {
   overflow: hidden;
-  background-color: #81B8AF; }
-  .experienceWrapper .one .wrapper:before {
-    background: red; }
+  background-image: url("https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800"); }
+  .experienceWrapper .one .wrapper {
+    background-color: #81B8AF;
+    opacity: .85; }
   .experienceWrapper .one .linethru:after {
     background-color: yellow;
     opacity: .25; }
@@ -118,6 +121,16 @@ section {
     z-index: 1000; }
   .experienceWrapper .one .wrapper {
     border: 5vw solid #FBD2D7; }
+  .experienceWrapper .one #flower0B {
+    top: 2%;
+    transform: rotate(235deg) !important;
+    z-index: 2000; }
+  .experienceWrapper .one #flower1B {
+    top: 2%; }
+  .experienceWrapper .one #flower2B {
+    z-index: 2000; }
+  .experienceWrapper .one #flower3B {
+    z-index: 2000; }
 
 .experienceWrapper .two {
   background-color: #FFD2B3;
@@ -166,7 +179,7 @@ section {
   to {
     transform: scaleX(1); } }
 
-#flower0A, #flower1A, #flower2A, #flower3A {
+#flower0A, .experienceWrapper .one #flower0B, #flower1A, .experienceWrapper .one #flower1B, #flower2A, .experienceWrapper .one #flower2B, #flower3A, .experienceWrapper .one #flower3B {
   width: 20vh;
   overflow: auto;
   transform: rotate(205deg);
@@ -175,17 +188,17 @@ section {
   margin-right: -30px;
   margin-top: -30px; }
 
-#flower1A, #flower2A {
+#flower1A, .experienceWrapper .one #flower1B, #flower2A, .experienceWrapper .one #flower2B {
   transform: rotate(140deg);
   left: 0;
   margin-left: -30px; }
 
-#flower2A {
+#flower2A, .experienceWrapper .one #flower2B {
   bottom: 10%;
   transform: rotate(40deg);
   margin-bottom: -30px; }
 
-#flower3A {
+#flower3A, .experienceWrapper .one #flower3B {
   bottom: 10%;
   transform: rotate(320deg);
   margin-bottom: -30px; }

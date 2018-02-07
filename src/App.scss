@@ -40,8 +40,7 @@ section {
   .contentHeader{
     @extend %fixedbox;
     top: 0%;
-    // left: 10vw;
-    // width: 30vw;
+        z-index: 1000;
 
     h1{
       font-size: 10vw;
@@ -99,6 +98,7 @@ section {
   bottom: 0;
   min-height: 10%;
   width: 100%;
+  z-index: 2000;
 
   background: #000;
 
@@ -191,10 +191,11 @@ section {
   .one {
     overflow: hidden;
       // Section background image
-    background-color: #81B8AF;
-    .wrapper:before {
+      background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800');
+    .wrapper {
       // Box background color
-      background: red;
+      background-color: #81B8AF;
+          opacity: .85;
 
     }
 
@@ -211,6 +212,28 @@ section {
     }
     .wrapper{
       border: 5vw solid #FBD2D7;
+    }
+
+    #flower0B{
+      @extend #flower0A;
+      top: 2%;
+      transform: rotate(235deg)!important;
+      z-index: 2000;
+
+
+    }
+    #flower1B{
+      @extend  #flower1A;
+      top: 2%;
+
+    }
+    #flower2B{
+      @extend  #flower2A;
+      z-index: 2000;
+    }
+    #flower3B{
+      @extend  #flower3A;
+      z-index: 2000;
     }
   }
 
@@ -314,16 +337,12 @@ margin-top: -30px;
   transform: rotate(40deg);
   margin-bottom: -30px;
 
-
-
-
 }
 #flower3A{
 @extend #flower0A;
   bottom: 10%;
   transform: rotate(320deg);
   margin-bottom: -30px;
-
 
 }
 

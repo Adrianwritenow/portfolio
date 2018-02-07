@@ -16,15 +16,20 @@ class Info extends Component {
 <div className="contentWrap">
       <div className="experienceWrapper">
       <section className="zero" id="splash">
-      
+
 
       <Splash />
 
       </section>
         <section className="one" id="about">
-        <img id="flamingo" src={require("./logos/flamingo.png")} alt='flamingo'/>
 
           <div className="wrapper">
+          <img id="flower0B" src={require("./logos/Orangeblossom.png")} alt='flower'/>
+          <img id="flower1B" src={require("./logos/Orangeblossom.png")} alt='flower'/>
+          <img id="flower2B" src={require("./logos/Orangeblossom.png")} alt='flower'/>
+          <img id="flower3B" src={require("./logos/Orangeblossom.png")} alt='flower'/>
+
+
 
             <div className='contentHeader'>
               <h1 className="linethru">
@@ -34,6 +39,8 @@ class Info extends Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Quisque vitae dictum erat.</p>
             </div>
+            <img id="flamingo" src={require("./logos/flamingo.png")} alt='flamingo'/>
+
           </div>
 
 
