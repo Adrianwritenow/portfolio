@@ -194,6 +194,7 @@ section {
       background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800');
     .wrapper {
       // Box background color
+      border: 5vw solid #F3402F;
       background-color: #81B8AF;
           opacity: .85;
 
@@ -208,10 +209,6 @@ section {
 
     .content{
       z-index: 1000;
-      // top:80vw;
-    }
-    .wrapper{
-      border: 5vw solid #FBD2D7;
     }
 
     #flower0B{
@@ -455,19 +452,22 @@ button{
   width: 60vw;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 80vh;
+  width: 90vw;
 }
 .button {
   flex: 1 1 auto;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  overflow:hidden;
-  transition: .3s;
-  width:10%;
-  filter: grayscale(100%);
+      padding: 5vw;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      overflow: hidden;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s;
+      width: 20vw;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
 
   &:after {
     position: absolute;
@@ -506,8 +506,7 @@ button{
 
 
 .container {
-  width: 100vw;
-  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;

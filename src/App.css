@@ -112,6 +112,7 @@ section {
   overflow: hidden;
   background-image: url("https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800"); }
   .experienceWrapper .one .wrapper {
+    border: 5vw solid #F3402F;
     background-color: #81B8AF;
     opacity: .85; }
   .experienceWrapper .one .linethru:after {
@@ -119,8 +120,6 @@ section {
     opacity: .25; }
   .experienceWrapper .one .content {
     z-index: 1000; }
-  .experienceWrapper .one .wrapper {
-    border: 5vw solid #FBD2D7; }
   .experienceWrapper .one #flower0B {
     top: 2%;
     transform: rotate(235deg) !important;
@@ -283,18 +282,21 @@ button {
   width: 60vw;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh; }
+  height: 80vh;
+  width: 90vw; }
 
 .button {
   flex: 1 1 auto;
-  margin: 10px;
-  padding: 20px;
+  padding: 5vw;
   text-align: center;
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
-  width: 10%;
+  width: 20vw;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
   .button:after {
     position: absolute;
@@ -319,8 +321,6 @@ button {
     width: 60%; }
 
 .container {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center; }
