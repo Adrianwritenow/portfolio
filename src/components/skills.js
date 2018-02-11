@@ -23,13 +23,24 @@ class Skills extends Component {
     return (
 
         <div className="wrapper">
+
+
+
+        <img id="parrot"src={require("./logos/parrot.png")} alt='parrot'/>
+
           <div className="contentHeader">
           <h1 className="linethru">
             &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
             <div className='container'>
               {skillCards}
+
             </div>
           </div>
+          <img id="flower0C" src={require("./logos/poppyPlant.png")} alt='flower'/>
+          <img id="flower1C" src={require("./logos/poppyPlant.png")} alt='flower'/>
+          <img id="flower2C" src={require("./logos/poppyPlant.png")} alt='flower'/>
+          <img id="flower3C" src={require("./logos/poppyPlant.png")} alt='flower'/>
+
         </div>
     );
   }

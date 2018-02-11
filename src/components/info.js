@@ -47,7 +47,6 @@ class Info extends Component {
         </section>
 
         <section className="two" id="skills">
-          <img id="parrot"src={require("./logos/parrot.png")} alt='parrot'/>
 
           <Skills />
         </section>

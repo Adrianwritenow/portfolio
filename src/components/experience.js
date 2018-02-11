@@ -45,6 +45,11 @@ class Experience extends Component {
 
         <div className="wrapper">
 
+        <img id="flower0D" src={require("./logos/rosaBayahibe.png")} alt='flower'/>
+        <img id="flower1D" src={require("./logos/rosaBayahibe.png")} alt='flower'/>
+        <img id="flower2D" src={require("./logos/rosaBayahibe.png")} alt='flower'/>
+        <img id="flower3D" src={require("./logos/rosaBayahibe.png")} alt='flower'/>
+
           <div className="contentHeader">
           <h1 className="linethru">
             &#x0003C;EXPERIENCE&#x0002F;&#x0003E;</h1>

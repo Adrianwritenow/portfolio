@@ -187,6 +187,7 @@ section {
     justify-content: center;
   background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800');
 
+
 }
   .one {
     overflow: hidden;
@@ -235,13 +236,50 @@ section {
   }
 
   .two {
-    background-color: #FFD2B3;
-    border: 5vw solid red;
+    border: 5vw solid #2AB7CA;
+    background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg&w=1200&h=800');
+
+
+    #flower0C{
+      @extend #flower0A;
+      top: 2%;
+      transform: rotate(235deg)!important;
+      z-index: 1000;
+
+
+    }
+    #flower1C{
+      @extend  #flower1A;
+      top: 2%;
+
+    }
+    #flower2C{
+      @extend  #flower2A;
+      z-index: 2000;
+    }
+    #flower3C{
+      @extend  #flower3A;
+      z-index: 2000;
+    }
+
+
+
     .wrapper:before {
       background: #faaa54;
       // mix-blend-mode: difference;
     }
 
+    #video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
 
     .linethru:after{
 
@@ -249,13 +287,27 @@ section {
       opacity: .25;
 
     }
+
+    .wrapper{
+      background-color: #FFD2B3;
+          opacity: .85;
+    }
+
+    .container{
+      top: 12vw;
+    }
+
+    .button{
+      z-index: 1000;
+    }
   }
 
   .three {
-    background-color: #ACE09E;
 
-    border: 5vw solid blue;
-    border-bottom: 10vw solid blue;
+    border: 5vw solid #5C1A1B;
+    border-bottom: 10vw solid #5C1A1B;
+
+    background-image: url('https://rtl.lwcdn.nl/imageScaled/?site=ehet2017&file=1481799675_beton.jpg');
 
 
     .linethru:after{
@@ -267,6 +319,35 @@ section {
       background: #6c320a;
       mix-blend-mode: darken;
     }
+
+    #flower0D{
+      @extend #flower0A;
+      top: 2%;
+      transform: rotate(235deg)!important;
+      z-index: 1000;
+
+
+    }
+    #flower1D{
+      @extend  #flower1A;
+      top: 2%;
+
+    }
+    #flower2D{
+      @extend  #flower2A;
+      z-index: 2000;
+    }
+    #flower3D{
+      @extend  #flower3A;
+      z-index: 2000;
+    }
+
+  .wrapper{
+    background-color: #AED4E6;
+    opacity: .85;
+  }
+
+
   }
   p{
     font-weight: 400;
@@ -309,6 +390,7 @@ section {
 
 
 /////////////////////SPLASH///////////////
+
 
 #flower0A{
 width: 20vh;
