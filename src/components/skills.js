@@ -24,10 +24,6 @@ class Skills extends Component {
 
         <div className="wrapper">
 
-
-
-        <img id="parrot"src={require("./logos/parrot.png")} alt='parrot'/>
-
           <div className="contentHeader">
           <h1 className="linethru">
             &#x0003C;SKILLS&#x0002F;&#x0003E;</h1>
